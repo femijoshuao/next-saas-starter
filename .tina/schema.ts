@@ -1,4 +1,7 @@
 import { defineSchema } from '@tinacms/cli';
+export config = defineConfig({
+  + apiURL: `https://content.tinajs.io/content/${952c7e91-fd87-4e2c-b0a1-8b7ef722158a}/github/${myBranch}`,
+})
 
 export default defineSchema({
   collections: [
