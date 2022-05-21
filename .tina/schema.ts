@@ -1,4 +1,12 @@
-import { defineSchema } from '@tinacms/cli';
+
+// .tina/schema.ts
+
+// ...
+
+export config = defineConfig({
+  - apiURL: `https://lovely-scone-25364a.netlify.app:4001/graphql`,
+  + apiURL: `https://content.tinajs.io/content/${952c7e91-fd87-4e2c-b0a1-8b7ef722158a}/github/${myBranch}`,
+  })import { defineSchema } from '@tinacms/cli';
 
 export default defineSchema({
   collections: [
